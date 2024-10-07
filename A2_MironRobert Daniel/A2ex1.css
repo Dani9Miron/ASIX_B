@@ -1,0 +1,51 @@
+/* Estil per al body */
+body {
+    font-family: serif;
+    font-size: 1.2em;
+    background-color: #fddaef;
+}
+
+/* Estil per als paràgrafs generals */
+p {
+    line-height: 125%;
+}
+
+/* Títol de primer nivell */
+h1 {
+    color: blue;
+    font-family: Arial, sans-serif;
+}
+
+/* Títols de segon i tercer nivell */
+h2, h3 {
+    color: #cc22ff;
+    font-family: Arial, sans-serif;
+}
+
+/* Estil per al codi Python */
+pre {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+/* Paràgraf amb l'ID especial */
+#paragraf-especial::first-letter {
+    font-size: 300%;
+    font-weight: bold;
+}
+
+/* Estil per a la classe "parraf-principal" */
+.parraf-principal {
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Estil per a la classe "parraf-secundari" */
+.parraf-secundari {
+    color: #666666;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 3px solid #cc22ff;
+}
