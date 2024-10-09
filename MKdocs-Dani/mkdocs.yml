@@ -1,0 +1,25 @@
+site_name: "Robert Daniel Miron - 1r ASIX"
+theme:
+  name: material
+  custom_dir: docs/imatges
+  palette:
+    scheme:  
+    primary: 'indigo'
+    accent: 'Black'
+  font:
+    text: 'Arial'
+    code: 'Fira Code'
+
+nav:
+  - Inicio: index.md
+  - 1. Sistema operatiu: sistema-operatiu.md
+  - 2. Punts de restauració: punts-restauracio.md
+  - 3. Llicenciament: llicenciament.md
+  - 4. Gestors d’arrancada: gestors-arrancada.md
+  - 5. Configuració xarxa bàsica: configuracio-xarxa-basica.md
+  - 6. Comandes generals: comandes-generals.md
+  - 7. Instal·lacions de programari: instal-lacions-programari.md
+
+plugins:
+  - search
+
