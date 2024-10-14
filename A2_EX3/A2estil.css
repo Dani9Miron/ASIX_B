@@ -1,0 +1,80 @@
+/* Estils generals */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffb00;
+    margin: 0;
+    padding: 0;
+}
+.icono {
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+}
+
+header {    
+    background-color: #333;
+    color: #fff;
+    padding: 10px ;
+    text-align: center;
+}
+
+header #logo img {
+    width: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: orange;
+    border-radius: 5px;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ebe5e5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article h1, h2 {
+    color: #333;
+}
+
+.article-img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #db11e2;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Estils per a la integració de Twitter */
+.twitter-embed {
+    margin: 20px 0;
+    text-align: center;
+}
