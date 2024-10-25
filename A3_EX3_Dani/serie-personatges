@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Llistat de personatges del Barret de Palla">
+    <meta name="author" content="El teu nom">
+    <meta name="keywords" content="Personatges, Barret de Palla, Sèrie">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="A2estil.css">
+    <title>Llistat tripulació del Barret de Palla</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/Site-OnePiece_logo.webp" alt="Logo de One Piece">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="serie-historia.html">Història</a></li>
+                <li><a href="serie-personatges.html">Personatges</a></li>
+                <li><a href="serie-llistat-arcs.html">Arcs de la sèrie</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Llistat tripulació del Barret de Palla</h1>
+
+        <section class="personatge">
+            <div class="info">
+                <h2>Monkey D. Ruffy</h2>
+                <p>
+                    El capità, conegut pel sobrenom de "Ruffy Barret de Palla". El seu objectiu és convertir-se en el Rei dels Pirates, trobant el tresor llegendari deixat per l'antic Rei dels Pirates Gol D. Roger. Va menjar la fruita Gomu Gomu no Mi que el converteix en home de goma. 
+                </p>
+            </div>
+            <div class="imatge">
+                <img src="img/ruffy.jpg" alt="Ruffy" />
+                <button>Sabre més</button>
+            </div>
+        </section>
+
+        <section class="personatge">
+            <div class="info">
+                <h2>Roronoa Zoro</h2>
+                <p>
+                    Va ser el primer membre que es va unir als Pirates del Barret de Palla i és el combatent principal. Zoro empra un estil únic de lluita amb tres espases.
+                </p>
+            </div>
+            <div class="imatge">
+                <img src="img/zoro.jpg" alt="Zoro" />
+                <button>Sabre més</button>
+            </div>
+        </section>
+
+        <!-- Afegir més personatges seguint la mateixa estructura -->
+
+    </main>
+
+    <footer>
+        <div class="fandom-logo">
+            <img src="img/fandom20-footer-logo.webp" alt="Logo de One Piece">
+            <img src="img/logo_onepiece.png" alt="Logo de One Piece">
+        </div>
+    </footer>
+</body>
+</html>
