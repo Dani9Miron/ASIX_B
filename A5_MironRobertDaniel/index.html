@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pàgina de La Senia">
+    <meta name="author" content="Robert Daniel Miron">
+    <meta name="keywords" content="Futbol">
+    <title>C.F La Sénia</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="components.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="img/escudo.png" alt="Escudo del Club" class="escudo">
+        <h1>Benvinguts a la Pàgina Oficial de C.F LA SÉNIA</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="Historia.html">Historia del Club</a></li>
+                <li><a href="Roba.html">Merchandising</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="galeria">
+        <h2>EQUIPS FUTBOL 11</h2>
+
+        <div class="miniatures">
+             <h2>Primer Equip</h2>
+            <img src="img/primer.jpg" alt="Imatge 1" class="miniatura1" onclick="mostrarImatge(this)">
+            <h2>Filial</h2>
+            <img src="img/filial.png" alt="Imatge 2" class="miniatura2" onclick="mostrarImatge(this)">
+            <h2>Juvenil</h2>
+            <img src="img/juvenil.jpg" alt="Imatge 3" class="miniatura3" onclick="mostrarImatge(this)">
+            <h2>Infantil</h2>
+            <img src="img/infantil.jpg" alt="Imatge 4" class="miniatura4" onclick="mostrarImatge(this)">
+            <!-- Afegir més imatges segons sigui necessari -->
+        </div>
+        <div id="granImatge" class="granImatge">
+            <img src="" alt="Imatge gran">
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Robert Daniel Miron - Tots els drets reservats</p>
+    </footer>
+</body>
+</html>

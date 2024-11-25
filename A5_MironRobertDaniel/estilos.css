@@ -1,0 +1,106 @@
+/* estilos.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #eeff00;
+    color: #0044ff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.galeria {
+    padding: 100px;
+    text-align: center;
+}
+
+.miniatures {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.miniatura1 {
+    width: 260px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    height: 20%;
+}
+.miniatura2 {
+    width: 320px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    height: 20%;
+}
+.miniatura3 {
+    width: 230px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    height: 20%;
+}
+.miniatura4 {
+    width: 310px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    height: 20%;
+}
+
+.miniatura:hover {
+    transform: scale(1.1);
+}
+
+.granImatge {
+    margin-top: 20px;
+    display: none;
+}
+
+.granImatge img {
+    width: 400px;
+}
+
+section:hover {
+    background-color: #000000;
+}
+
+section h2 {
+    color: #000000;
+}
+
+section:hover h2 {
+    color: #000000;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 17px;
+    background-color:  #0044ff;
+    color: #eeff00;
+}
+.escudo {
+    width: 100px; /* Cambia el tamaño del escudo (ancho en píxeles) */
+    height: 40; /* Mantiene la proporción original */
+    position: absolute; /* Permite posicionarlo libremente */
+    top: 10px; /* Ajusta la distancia desde la parte superior */
+    left: 10px; /* Ajusta la distancia desde la izquierda */
+}
